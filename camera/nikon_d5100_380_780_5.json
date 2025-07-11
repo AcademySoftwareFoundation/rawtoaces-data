@@ -11,7 +11,7 @@
         "laboratory"             : "National Physical Laboratory",
         "document_creation_date" : "2017-06-09T10:20:00Z",
         "comments"               : "this is for rawtoaces software to convert RAW to aces",
-        "license"                : null
+        "license"                : "Apache-2.0"
     },
     "spectral_data": {
         "units"                 : "relative",
