@@ -13,10 +13,10 @@ This is the data repository for the RAW to ACES Utility or `rawtoaces` (https://
 
 The repository contains the following:
 
-* [`camera/`](./camera) - camera spectral sensitivities
-* [`illuminant/`](./illuminant) - light source spectral power distribution
-* [`cmf/`](./cmf) - color matching functions (CIE-1931)
-* [`training/`](./training) - 190 training patch dataset
+* [`data/camera/`](./data/camera) - camera spectral sensitivities
+* [`data/illuminant/`](./data/illuminant) - light source spectral power distribution
+* [`data/cmf/`](./data/cmf) - color matching functions (CIE-1931)
+* [`data/training/`](./data/training) - 190 training patch dataset
 	
 ## JSON Schema for Spectral Datasets
 
