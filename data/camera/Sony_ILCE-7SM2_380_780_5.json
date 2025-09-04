@@ -1,8 +1,8 @@
 {
     "header": {
         "schema_version"         : "0.1.0",
-        "manufacturer"           : "sony",
-        "model"                  : "ilce-7sm2",
+        "manufacturer"           : "Sony",
+        "model"                  : "ILCE-7SM2",
         "catalog_number"         : "camera_sony_ilce-7sm2_0.1.0",
         "description"            : "camera spectral sensitivity data",
         "document_creator"       : "scitech",
