@@ -1,8 +1,8 @@
 {
     "header": {
         "schema_version"         : "0.1.0",
-        "manufacturer"           : "nikon",
-        "model"                  : "d5100",
+        "manufacturer"           : "Nikon",
+        "model"                  : "D5100",
         "catalog_number"         : "camera_nikon_d5100_0.1.0",
         "description"            : "camera spectral sensitivity data",
         "document_creator"       : "Jonathon Irons",
