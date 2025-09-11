@@ -1,7 +1,7 @@
 {
     "header": {
         "schema_version"         : "1.0.0",
-        "illuminant"             : "iso7589",
+        "type"                   : "iso7589",
         "description"            : "light source iso7589",
         "document_creator"       : "scitech",
         "unique_identifier"      : "8cbb7378-065d-4663-93cb-3cd12d5a9810",

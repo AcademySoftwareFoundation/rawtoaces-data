@@ -58,6 +58,9 @@ The attributes are defined as follows:
     - `model`
         - **description**: *Optional*, model of the device being tested.
         - **type**: `["string", "null"]`
+    - `type`
+        - **description**: *Optional*, type of the spectral dataset.
+        - **type**: `["string", "null"]`
     - `unique_identifier`
         - **description**: *Optional*, generated unique identifier for the document, e.g. SHA256.
         - **type**: `["string", "null"]`
