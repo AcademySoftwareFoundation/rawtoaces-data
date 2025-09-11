@@ -10,7 +10,7 @@
         "laboratory"             : "scitech",
         "document_creation_date" : "2017-04-13T12:00:00Z",
         "comments"               : "this is for rawtoaces software to convert RAW to aces",
-        "license"                : null
+        "license"                : ""
     },
     "spectral_data": {
         "units"                 : "relative",
