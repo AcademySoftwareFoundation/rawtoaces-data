@@ -24,8 +24,7 @@ jobs:
       - name: Dependencies
         shell: bash
         run: |
-            sudo apt-get update
-            sudo apt-get -q -f install check-jsonschema
+            pipx install check-jsonschema
 
       - name: Check
         # Execute tests defined by the CMake configuration. Note that --build-config is needed because the default Windows generator is a multi-config generator (Visual Studio generator).
