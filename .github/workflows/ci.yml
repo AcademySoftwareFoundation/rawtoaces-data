@@ -31,5 +31,5 @@ jobs:
         # See https://cmake.org/cmake/help/latest/manual/ctest.1.html for more detail
         working-directory: .
         run: |
-            check-jsonschema --schemafile ./schema_0.1.0.json ./data/camera/ARRI_D21_380_780_5.json
+            ./scripts/check_schema.sh
         
