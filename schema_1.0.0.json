@@ -58,6 +58,11 @@
                     "id": "/properties/header/properties/model",
                     "type": ["string", "null"]
                 },
+                "type": {
+                    "description": "Optional, type of the spectral dataset.",
+                    "id": "/properties/header/properties/type",
+                    "type": ["string", "null"]
+                },
                 "unique_identifier": {
                     "description": "Optional, generated unique identifier for the document, e.g. SHA256.",
                     "id": "/properties/header/properties/unique_identifier",
