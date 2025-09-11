@@ -12,11 +12,6 @@
                     "id": "/properties/header/properties/api_version",
                     "type": "string"
                 },
-                "catalog_number": {
-                    "description": "Optional, ",
-                    "id": "/properties/header/properties/catalog_number",
-                    "type": ["string", "null"]
-                },
                 "comments": {
                     "description": "Optional, additional information for the spectral dataset.",
                     "id": "/properties/header/properties/comments",
