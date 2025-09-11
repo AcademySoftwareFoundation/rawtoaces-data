@@ -1,8 +1,7 @@
 {
     "header": {
-        "schema_version"         : "0.1.0",
+        "schema_version"         : "1.0.0",
         "type"                   : "cie-1931",
-        "catalog_number"         : "cie-1931_color_matching_functions_0.1.0",
         "description"            : "cie-1931 color matching functions",
         "document_creator"       : "scitech",
         "unique_identifier"      : "77c05ddb-26fd-4e3d-8750-b2138d812d8f",

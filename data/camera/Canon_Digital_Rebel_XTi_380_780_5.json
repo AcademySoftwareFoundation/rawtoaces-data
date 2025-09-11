@@ -1,9 +1,8 @@
 {
     "header": {
-        "schema_version"         : "0.1.0",
+        "schema_version"         : "1.0.0",
         "manufacturer"           : "Canon",
         "model"                  : "Digital Rebel XTi",
-        "catalog_number"         : "camera_canon_xti_0.1.0",
         "description"            : "camera spectral sensitivity data",
         "document_creator"       : "scitech",
         "unique_identifier"      : "8c9a4c02-6530-46e1-a410-dbabfe331322",

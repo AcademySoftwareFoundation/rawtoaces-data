@@ -30,9 +30,6 @@ The attributes are defined as follows:
     - `schema_version`
         - **description**: *Required*, schema version of the current document.
         - **type**: `"string"`
-    - `catalog_number`
-        - **description**: *Optional*,
-        - **type**: `["string", "null"]`
     - `comments`
         - **description**: *Optional*, additional information for the spectral dataset.
         - **type**: `["string", "null"]`
@@ -90,7 +87,7 @@ The attributes are defined as follows:
         - **type**: `"string"`
         - **enum**: `["flux", "absorptance", "transmittance", "reflectance", "intensity", "irradiance", "radiance", "exitance", "R-Factor", "T-Factor", "relative", "other"]`
 
-The full JSON schema for spectral datasets can be used to validate a new user file using a [validator](http://www.jsonschemavalidator.net/) and is defined in [schema_0.1.0.json](./schema_0.1.0.json)
+The full JSON schema for spectral datasets can be used to validate a new user file using a [validator](http://www.jsonschemavalidator.net/) and is defined in [schema_1.0.0.json](./schema_1.0.0.json)
 
 ## Licence
 
