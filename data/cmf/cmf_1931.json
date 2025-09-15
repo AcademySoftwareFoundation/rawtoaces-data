@@ -8,8 +8,8 @@
         "measurement_equipment"  : null,
         "laboratory"             : "scitech",
         "document_creation_date" : "2017-04-16T12:00:00Z",
-        "comments"               : "this is for rawtoaces software to convert RAW to aces",
-        "license"                : ""
+        "comments"               : "adapted from the data available under 'CC-BY-4.0' from CIE at https://cie.co.at/datatable/cie-1931-chromaticity-coordinates-spectrum-loci-2-degree-observer",
+        "license"                : "CC-BY-4.0"
     },
     "spectral_data": {
         "units"                 : "relative",
