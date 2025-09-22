@@ -8,7 +8,7 @@
         "measurement_equipment"  : null,
         "laboratory"             : "scitech",
         "document_creation_date" : "2017-04-16T12:00:00Z",
-        "comments"               : "adapted from the data available under 'CC-BY-4.0' from CIE at https://cie.co.at/datatable/cie-1931-chromaticity-coordinates-spectrum-loci-2-degree-observer",
+        "comments"               : "CIE 2019, Colour-matching functions of CIE 1931 standard colorimetric observer, International Commission on Illumination (CIE), Vienna, AT, DOI: 10.25039/CIE.DS.xvudnb9b",
         "license"                : "CC-BY-4.0"
     },
     "spectral_data": {
