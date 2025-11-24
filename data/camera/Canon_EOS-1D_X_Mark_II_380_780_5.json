@@ -5,7 +5,7 @@
         "model": "EOS-1D X Mark II",
         "description": "camera spectral sensitivity data",
         "document_creator": "wetadigital",
-        "document_creation_date": "2025-11-07 03:10:25Z",
+        "document_creation_date": "2025-11-07T03:10:25Z",
         "measurement_equipment": "lightsaber",
         "license": "Apache-2.0"
     },
