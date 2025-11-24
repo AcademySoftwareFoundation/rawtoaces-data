@@ -5,7 +5,7 @@
         "model": "ILCE-7CM2",
         "description": "camera spectral sensitivity data",
         "document_creator": "wetadigital",
-        "document_creation_date": "2025-11-09 21:15:21Z",
+        "document_creation_date": "2025-11-09T21:15:21Z",
         "measurement_equipment": "lightsaber",
         "license": "Apache-2.0"
     },

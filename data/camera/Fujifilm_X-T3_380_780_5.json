@@ -5,7 +5,7 @@
         "model": "X-T3",
         "description": "camera spectral sensitivity data",
         "document_creator": "wetadigital",
-        "document_creation_date": "2025-11-10 00:17:56Z",
+        "document_creation_date": "2025-11-10T00:17:56Z",
         "measurement_equipment": "lightsaber",
         "license": "Apache-2.0"
     },
