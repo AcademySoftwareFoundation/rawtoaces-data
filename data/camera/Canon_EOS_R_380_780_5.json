@@ -5,7 +5,7 @@
         "model": "EOS R",
         "description": "camera spectral sensitivity data",
         "document_creator": "wetadigital",
-        "document_creation_date": "2025-11-07 01:40:17Z",
+        "document_creation_date": "2025-11-07T01:40:17Z",
         "measurement_equipment": "lightsaber",
         "license": "Apache-2.0"
     },
