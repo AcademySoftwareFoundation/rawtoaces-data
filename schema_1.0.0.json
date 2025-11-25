@@ -10,7 +10,8 @@
                 "schema_version": {
                     "description": "Required, schema version of the current document.",
                     "id": "/properties/header/properties/api_version",
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                 },
                 "comments": {
                     "description": "Optional, additional information for the spectral dataset.",
@@ -20,7 +21,8 @@
                 "description": {
                     "description": "Required, description of the spectral dataset.",
                     "id": "/properties/header/properties/description",
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                 },
                 "document_creation_date": {
                     "description": "Required, document creation date expressed as per RFC 3339 - Date and Time on the Internet: Timestamps, e.g. 2017-01-01T12:00:00Z.",
@@ -31,7 +33,8 @@
                 "document_creator": {
                     "description": "Required, creator of the document, e.g. company, individual, laboratory, etc.",
                     "id": "/properties/header/properties/document_creator",
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                 },
                 "laboratory": {
                     "description": "Optional, laboratory or company that performed the measurements.",
@@ -41,7 +44,8 @@
                 "license": {
                     "description": "Required, usage license of the document, e.g. CC-BY-NC-ND",
                     "id": "/properties/header/properties/license",
-                    "type": "string"
+                    "type": "string",
+                    "minLength": 1
                 },
                 "manufacturer": {
                     "description": "Optional, manufacturer of the device being tested.",
@@ -70,6 +74,7 @@
                 }
             },
             "required": [
+                "schema_version",
                 "description",
                 "document_creation_date",
                 "document_creator",
