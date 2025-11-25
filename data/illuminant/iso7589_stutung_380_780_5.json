@@ -1,15 +1,15 @@
 {
     "header": {
         "schema_version"         : "1.0.0",
-        "type"                   : "iso7589",
-        "description"            : "light source iso7589",
+        "type"                   : "ISO7589",
+        "description"            : "Studio tungsten light source ISO7589",
         "document_creator"       : "scitech",
         "unique_identifier"      : "8cbb7378-065d-4663-93cb-3cd12d5a9810",
         "measurement_equipment"  : null,
         "laboratory"             : "scitech",
         "document_creation_date" : "2017-04-13T12:00:00Z",
         "comments"               : "this is for rawtoaces software to convert RAW to aces",
-        "license"                : ""
+        "license"                : "Apache-2.0"
     },
     "spectral_data": {
         "units"                 : "relative",
