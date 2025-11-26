@@ -1,6 +1,11 @@
-Release 0.2.0 (November 25 2025) -- compared to 0.1.0
+Release 1.0.0 (November 28 2025) -- compared to 0.2.0
 --------------------------------------------------------
-- Capitalise the camera make/model in:
+- Switch to the schema version 1.0.0, see [CHANGES_schema](./CHANGES_schema.md) for more detail [#14](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/14). 
+
+Release 0.2.0 (November 26 2025) -- compared to 0.1.0
+--------------------------------------------------------
+- Capitalise the camera make/model [#9](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/9)
+  Updated cameras:
   - ARRI D21
   - Canon Digital Rebel XTi
   - Canon EOS 5D Mark II
@@ -12,11 +17,12 @@ Release 0.2.0 (November 25 2025) -- compared to 0.1.0
   - Nikon D70
   - Sony ILCE-7RM2
   - Sony ILCE-7SM2
-  [#9](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/9)
 - Set up JSON schema validation on CI and update non-compliant data files
   [#13](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/13),
   [#19](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/19)
-- Add spectral sensitivity data for:
+- Add/update camera spectral sensitivity data   [#17](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/17),
+  [#18](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/18)
+  Added cameras:
   - Arashi Vision Insta360 X5
   - Canon EOS-1D X Mark II
   - Canon EOS-1Ds Mark III
@@ -54,8 +60,11 @@ Release 0.2.0 (November 25 2025) -- compared to 0.1.0
   - Sony ILCE-7RM4
   - Sony ILCE-7SM3
   - Sony ILCE-9
-  [#17](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/17),
-  [#18](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/18)
+  
+  Updated cameras:
+  - Canon EOS 5D Mark II
+  - Sony ILCE-7RM2
+  - Sony ILCE-7SM2
 
 Release 0.1.0 (July 14 2025)
 --------------------------------------------------------
