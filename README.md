@@ -90,7 +90,7 @@ The attributes are defined as follows:
         - **type**: `"string"`
         - **enum**: `["flux", "absorptance", "transmittance", "reflectance", "intensity", "irradiance", "radiance", "exitance", "R-Factor", "T-Factor", "relative", "other"]`
 
-The full JSON schema for spectral datasets can be used to validate a new user file using a [validator](http://www.jsonschemavalidator.net/) and is defined in [schema_1.0.0.json](./schema_1.0.0.json)
+The full JSON schema for spectral datasets can be used to validate a new user file using a [validator](http://www.jsonschemavalidator.net/) and is defined in [schema/spectral_1.0.0.json](./schema/spectral_1.0.0.json)
 
 ## Licence
 
