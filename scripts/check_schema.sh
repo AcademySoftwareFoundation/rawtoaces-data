@@ -11,4 +11,9 @@ for DIR in camera cmf illuminant training; do
     done
 done
 
+echo "Processing file ./data/aliases.json"
+if ! check-jsonschema --schemafile ./schema/aliases_1.0.0.json "./data/aliases.json"; then
+    error=1
+fi
+    
 exit $error

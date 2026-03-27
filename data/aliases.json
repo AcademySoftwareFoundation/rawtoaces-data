@@ -1,108 +1,116 @@
 {
-    "camera": {
-        "make": {
-            "Nikon Corporation": "Nikon"
-        },
-        "model": {
-            "Canon": {
-                "EOS 400D": {
-                    "make": "Canon",
-                    "model": "Digital Rebel XTi",
-                    "comment": "same model, alternative name"
-                },
-                "Kiss Digital X": {
-                    "make": "Canon",
-                    "model": "Digital Rebel XTi",
-                    "comment": "same model, alternative name"
-                },
-                "EOS Rebel SL1": {
-                    "make": "Canon",
-                    "model": "EOS 100D",
-                    "comment": "same model, alternative name"
-                },
-                "Kiss X7": {
-                    "make": "Canon",
-                    "model": "EOS 100D",
-                    "comment": "same model, alternative name"
-                },
-                "EOS Rebel SL2": {
-                    "make": "Canon",
-                    "model": "EOS 200D",
-                    "comment": "same model, alternative name"
-                },
-                "Kiss X9": {
-                    "make": "Canon",
-                    "model": "EOS 200D",
-                    "comment": "same model, alternative name"
-                },
-                "EOS 250D": {
-                    "make": "Canon",
-                    "model": "EOS 200D II",
-                    "comment": "same model, alternative name"
-                },
-                "EOS Rebel SL3": {
-                    "make": "Canon",
-                    "model": "EOS 200D II",
-                    "comment": "same model, alternative name"
-                },
-                "Kiss X10": {
-                    "make": "Canon",
-                    "model": "EOS 200D II",
-                    "comment": "same model, alternative name"
-                },
-                "EOS Rebel T3i": {
-                    "make": "Canon",
-                    "model": "EOS 600D",
-                    "comment": "same model, alternative name"
-                },
-                "Kiss X5": {
-                    "make": "Canon",
-                    "model": "EOS 600D",
-                    "comment": "same model, alternative name"
-                },
-                "EOS 5DS R": {
-                    "make": "Canon",
-                    "model": "EOS 5DS",
-                    "comment": "different model, same sensor"
-                },
-                "EOS R5 C": {
-                    "make": "Canon",
-                    "model": "EOS R5",
-                    "comment": "different model, same sensor"
-                },
-                "EOS R50": {
-                    "make": "Canon",
-                    "model": "EOS R10",
-                    "comment": "different model, same sensor"
-                }
+    "header": {
+        "schema_version": "1.0.0",
+        "document_creator": "rawtoaces",
+        "document_creation_date": "2026-03-27T06:11:34Z",
+        "license": "Apache-2.0"
+    },
+    "data": {
+        "camera": {
+            "make": {
+                "Nikon Corporation": "Nikon"
             },
-            "Nikon": {
-                "D800": {
-                    "make": "Nikon",
-                    "model": "D800E",
-                    "comment": "different model, same sensor"
+            "model": {
+                "Canon": {
+                    "EOS 400D": {
+                        "make": "Canon",
+                        "model": "Digital Rebel XTi",
+                        "comments": "same model, alternative name"
+                    },
+                    "Kiss Digital X": {
+                        "make": "Canon",
+                        "model": "Digital Rebel XTi",
+                        "comments": "same model, alternative name"
+                    },
+                    "EOS Rebel SL1": {
+                        "make": "Canon",
+                        "model": "EOS 100D",
+                        "comments": "same model, alternative name"
+                    },
+                    "Kiss X7": {
+                        "make": "Canon",
+                        "model": "EOS 100D",
+                        "comments": "same model, alternative name"
+                    },
+                    "EOS Rebel SL2": {
+                        "make": "Canon",
+                        "model": "EOS 200D",
+                        "comments": "same model, alternative name"
+                    },
+                    "Kiss X9": {
+                        "make": "Canon",
+                        "model": "EOS 200D",
+                        "comments": "same model, alternative name"
+                    },
+                    "EOS 250D": {
+                        "make": "Canon",
+                        "model": "EOS 200D II",
+                        "comments": "same model, alternative name"
+                    },
+                    "EOS Rebel SL3": {
+                        "make": "Canon",
+                        "model": "EOS 200D II",
+                        "comments": "same model, alternative name"
+                    },
+                    "Kiss X10": {
+                        "make": "Canon",
+                        "model": "EOS 200D II",
+                        "comments": "same model, alternative name"
+                    },
+                    "EOS Rebel T3i": {
+                        "make": "Canon",
+                        "model": "EOS 600D",
+                        "comments": "same model, alternative name"
+                    },
+                    "Kiss X5": {
+                        "make": "Canon",
+                        "model": "EOS 600D",
+                        "comments": "same model, alternative name"
+                    },
+                    "EOS 5DS R": {
+                        "make": "Canon",
+                        "model": "EOS 5DS",
+                        "comments": "different model, same sensor"
+                    },
+                    "EOS R5 C": {
+                        "make": "Canon",
+                        "model": "EOS R5",
+                        "comments": "different model, same sensor"
+                    },
+                    "EOS R50": {
+                        "make": "Canon",
+                        "model": "EOS R10",
+                        "comments": "different model, same sensor"
+                    }
                 },
-                "Z 6_2": {
-                    "make": "Nikon",
-                    "model": "Z f",
-                    "comment": "different model, same sensor"
-                }
-            },
-            "Sony": {
-                "ILCE-7RM5": {
-                    "make": "Sony",
-                    "model": "ILCE-7RM4",
-                    "comment": "different model, same sensor"
+                "Nikon": {
+                    "D800": {
+                        "make": "Nikon",
+                        "model": "D800E",
+                        "comments": "different model, same sensor"
+                    },
+                    "Z 6_2": {
+                        "make": "Nikon",
+                        "model": "Z f",
+                        "comments": "different model, same sensor"
+                    }
                 },
-                "ILCE-7RM4A": {
-                    "make": "Sony",
-                    "model": "ILCE-7RM4",
-                    "comment": "updated model, same sensor"
-                },
-                "ILCE-7RM3A": {
-                    "make": "Sony",
-                    "model": "ILCE-7RM3",
-                    "comment": "updated model, same sensor"
+                "Sony": {
+                    "ILCE-7RM5": {
+                        "make": "Sony",
+                        "model": "ILCE-7RM4",
+                        "comments": "different model, same sensor"
+                    },
+                    "ILCE-7RM4A": {
+                        "make": "Sony",
+                        "model": "ILCE-7RM4",
+                        "comments": "updated model, same sensor"
+                    },
+                    "ILCE-7RM3A": {
+                        "make": "Sony",
+                        "model": "ILCE-7RM3",
+                        "comments": "updated model, same sensor"
+                    }
                 }
             }
         }

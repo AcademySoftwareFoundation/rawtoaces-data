@@ -1,0 +1,102 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {
+    },
+    "id": "#",
+    "properties": {
+        "header": {
+            "id": "/properties/header",
+            "properties": {
+                "schema_version": {
+                    "description": "Required, schema version of the current document.",
+                    "id": "/properties/header/properties/api_version",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "document_creation_date": {
+                    "description": "Required, document creation date expressed as per RFC 3339 - Date and Time on the Internet: Timestamps, e.g. 2017-01-01T12:00:00Z.",
+                    "id": "/properties/header/properties/document_creation_date",
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "document_creator": {
+                    "description": "Required, creator of the document, e.g. company, individual, laboratory, etc.",
+                    "id": "/properties/header/properties/document_creator",
+                    "type": "string",
+                    "minLength": 1
+                },
+                "license": {
+                    "description": "Required, usage license of the document, e.g. CC-BY-NC-ND",
+                    "id": "/properties/header/properties/license",
+                    "type": "string",
+                    "minLength": 1
+                }
+            },
+            "required": [
+                "schema_version",
+                "document_creation_date",
+                "document_creator",
+                "license"
+            ],
+            "type": "object"
+        },
+        "data": {
+            "description": "Mapping data, contains entity types.",
+            "additionalProperties": {
+                "description": "Entity type.",
+                "properties": {
+                    "make": {
+                        "description": "Optional, the current entity's make mapping.",
+                        "additionalProperties": {
+                            "description": "Source make, the value contains the destination make.",
+                            "type" : "string",
+                            "minLength": 1
+                        },
+                        "type": "object"
+                    },
+                    "model": {
+                        "description": "Optional, the current entity's model mapping.",
+                        "type": "object",
+                        "additionalProperties": {
+                            "description": "Source make, contains the source models.",
+                            "type" : "object",
+                            "additionalProperties": {
+                                "description": "Source model.",
+                                "type" : "object",
+                                "properties": {
+                                    "make": {
+                                        "description": "Required destination make",
+                                        "type": "string",
+                                        "minLength": 1
+                                    },
+                                    "model": {
+                                        "description": "Required, destination model",
+                                        "type": "string",
+                                        "minLength": 1
+                                    },
+                                    "comments": {
+                                        "description": "Optional, any comments, i.e. the reason this alias exists.",
+                                        "type": "string"
+                                    }
+                                },
+                                "additionalProperties": false,
+                                "required": [
+                                    "make",
+                                    "model"
+                                ]
+                            }
+                        }
+                    }
+                },
+                "additionalProperties": false,
+                "type": "object"
+            },
+            "type": "object"
+        }
+    },
+    "required": [
+        "header",
+        "data"
+    ],
+    "type": "object"
+}
