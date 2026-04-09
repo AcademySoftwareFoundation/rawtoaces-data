@@ -72,6 +72,11 @@
                         "model": "EOS 5DS",
                         "comments": "different model, same sensor"
                     },
+                    "EOS 6D Mark II": {
+                        "make": "Canon",
+                        "model": "EOS RP",
+                        "comments": "different model, same sensor"
+                    },
                     "EOS R5 C": {
                         "make": "Canon",
                         "model": "EOS R5",
@@ -80,6 +85,11 @@
                     "EOS R50": {
                         "make": "Canon",
                         "model": "EOS R10",
+                        "comments": "different model, same sensor"
+                    },
+                    "EOS R8": {
+                        "make": "Canon",
+                        "model": "EOS R6m2",
                         "comments": "different model, same sensor"
                     }
                 },
@@ -110,6 +120,13 @@
                         "make": "Sony",
                         "model": "ILCE-7RM3",
                         "comments": "updated model, same sensor"
+                    }
+                },
+                "Fujifilm": {
+                    "GFX100S": {
+                        "make": "Fujifilm",
+                        "model": "GFX 100",
+                        "comments": "different model, same sensor"
                     }
                 }
             }
