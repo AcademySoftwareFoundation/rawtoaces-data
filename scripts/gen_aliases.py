@@ -16,7 +16,8 @@ same_camera_model = {
     
     'Canon EOS Rebel T3i': 'Canon EOS 600D',
     'Canon Kiss X5': 'Canon EOS 600D',
-    
+        
+    'Canon EOS R5 Mark II': 'Canon EOS R5m2',
 }
 
 different_camera_model = {

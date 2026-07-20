@@ -67,6 +67,11 @@
                         "model": "EOS 600D",
                         "comments": "same model, alternative name"
                     },
+                    "EOS R5 Mark II": {
+                        "make": "Canon",
+                        "model": "EOS R5m2",
+                        "comments": "same model, alternative name"
+                    },
                     "EOS 5DS R": {
                         "make": "Canon",
                         "model": "EOS 5DS",
