@@ -1,3 +1,15 @@
+Release 1.1.0 (July 25 2025) -- compared to 1.0.0
+--------------------------------------------------------
+- Adds aliases.json  [#25](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/25), [#28](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/28)
+- Fixes broken curves for Canon 1Ds Mark III [#27](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/27)
+- Adds camera spectral sensitivity data [#26](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/26) 
+  Added cameras:
+  - Canon R6m2
+  - Canon RP
+  - Fuji GFX100
+  - Hasselblad L2D
+- Adds signed releases [#30](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/30) 
+
 Release 1.0.0 (November 28 2025) -- compared to 0.2.0
 --------------------------------------------------------
 - Switch to the schema version 1.0.0, see [CHANGES_schema](./CHANGES_schema.md) for more detail [#14](https://github.com/AcademySoftwareFoundation/rawtoaces-data/pull/14). 
